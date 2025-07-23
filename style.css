@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+    max-width: 1280px;
+}
+section{
+    background-color:rgb(156, 253, 251);
+    padding:20px 5% ;
+    height: 90vh;
+}
+.container1{
+    width: 100%;
+    width: 100%;
+    height: 100px;
+}
+
+nav{
+    background-color: white;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    height: 80px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius:5rem;
+}
+.tel{
+    width: 40px;
+    border-radius: 50%;
+}
+.logo{
+    width:60px ;
+}
+.nav1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav1 h1{
+    font-size: 40px;
+}
+.nav2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.nav2 li {
+    list-style: none;
+}
+.nav2 li a{
+    text-decoration: none;
+    color: black;
+}
+.nav2 #un a:hover{
+    color: rgb(47, 226, 167);
+}
+.nav3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+}
+.nav3-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+#p1{
+    font-size: 12px;
+}
+#p2{
+    font-size: 20px;
+    font-weight: bold;
+}
+.container2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.container2-text{
+    width: 50%;
+}
+.container2-text h1{
+    font-size: 70px;
+    color: black;
+}
+.container2-text p{
+    font-size: 20px;
+    color: rgba(59, 59, 59, 0.553);
+    margin-bottom: 20px;
+}
+.container2-text a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.Decouvrez{
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(58, 154, 154);
+    height: 40px;
+    width: 200px;
+    padding: 12px 10px 10px 30px;
+}
+.Decouvrez:hover{
+    background-color: aliceblue;
+    color: rgb(58, 154, 154);
+}
+.container2-image{
+    width: 50%;
+    padding-left: 100px;
+}
+.img1{
+    width: 400px;
+    background-color: rgb(58, 154, 154);
+    border-radius: 20px;
+}
+aside{
+    padding:20px 5% ;
+    height: 130vh;
+    background-color: rgb(245, 250, 250);
+}
+.container3{
+    margin-top: 100px;
+    display: flex;
+}
+
+.img2{
+    height: 450px;
+}
+.ex{
+    background-color: rgb(58, 154, 154);
+    display: flex;
+    align-items: center;
+    color: white;
+    margin: 20px;
+    border-radius: 20px;
+    height: 120px;
+    padding: 20px;
+    gap: 30px;
+}
+.ex div p{
+    margin-top: 10px;
+}
+.photo_ex{
+    width: 80px;
+    height: 80px;
+    border-radius:30px ;
+    background-color: aliceblue;
+}
+.ex div h2{
+    font-size: 40px;
+}
+.h1{
+    font-size: 50px;
+}
+.aside1{
+    display: flex;
+    background-color: white;
+    width:540px;
+    height: 120px;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.photo{
+    width: 80px;
+    height: 80px;
+    border-radius:50% ;
+}
+.aside1_a a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.aside1_a{
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(58, 154, 154);
+    height: 40px;
+    width: 150px;
+    padding: 12px 10px 10px 30px;
+}
+footer{
+    background-color: rgb(230, 227, 227);
+    padding-top: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.foot1 h1, .foot1 p{
+    text-align: center;
+}
+.foot1 h1{
+    font-size: 80px;
+}
+.foot1 p{
+    font-size: 30px;
+}
+.foot_cont{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+}
+.foot2{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+    width: 400px;
+    height: 400px;
+    border-radius: 30px;
+}
+.foot2 .footp{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footp {
+    font-size: 40px;
+    color: rgba(127, 255, 212, 0.308);
+}
+.foot_img img{
+    width: 100px;
+}
+.foot_text h1{
+    font-size: 33px;
+    margin: 10px;
+}
+.foot_text p{
+    font-size: 30px;
+    margin: 5px 0;
+}
+.foot_a a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(46, 215, 215);;
+}
